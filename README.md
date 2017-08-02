@@ -4,4 +4,4 @@
 
 # The Rules
   You compare the numbers adjacent to each circle and write a greater-than-, less-than- or equals-sign, according to the result of
-  your comparision into the circle. Don't take it too seriously. You're probably to old for this. ;)
+  your comparision into the circle. Don't take it too seriously. You're probably too old for this. ;)
