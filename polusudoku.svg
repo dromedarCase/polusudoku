@@ -1,0 +1,56 @@
+<svg version="1.1"
+    baseProfile="full"
+    width="15cm" height="15cm"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <rect width="100%" height="100%" fill="white" />
+
+    <line x1="0" y1="05cm" x2="100%" y2="05cm" stroke-width="2" stroke="black" />
+    <line x1="0" y1="10cm" x2="100%" y2="10cm" stroke-width="2" stroke="black" />
+
+    <line y1="0" x1="05cm" y2="100%" x2="05cm" stroke-width="2" stroke="black" />
+    <line y1="0" x1="10cm" y2="100%" x2="10cm" stroke-width="2" stroke="black" />
+
+    <circle cx="05cm" cy="02.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="05cm" cy="07.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="05cm" cy="12.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="10cm" cy="02.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="10cm" cy="07.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cx="10cm" cy="12.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+
+    <circle cy="05cm" cx="02.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cy="05cm" cx="07.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cy="05cm" cx="12.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cy="10cm" cx="02.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cy="10cm" cx="07.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+    <circle cy="10cm" cx="12.5cm" r="1cm" stroke="black" stroke-width="2" fill="white"/>
+
+    <text x="02.5cm" y="02.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="07.5cm" y="02.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="12.5cm" y="02.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="02.5cm" y="07.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="07.5cm" y="07.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="12.5cm" y="07.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="02.5cm" y="12.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="07.5cm" y="12.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+    <text x="12.5cm" y="12.5cm" font-size="2cm" text-anchor="middle" dominant-baseline="central" />
+
+    <script type="text/javascript">
+        // <![CDATA[
+        
+        /// (cc) Mozilla [<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random>, 2017-07-02]
+        function getRandomIntInclusive(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        
+        var numbers = document.getElementsByTagName("text");
+        for (var i = 0; i < 9; i++) {
+                numbers[i].innerHTML = getRandomIntInclusive(0, 12);
+            }
+            
+        // ]]>
+    </script>
+    
+</svg>
